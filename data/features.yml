@@ -2,8 +2,6 @@
 enable: true
 heading: Offers
 item:
-- title: Successful test title
-  description: We can edit content remotely. This is awesome!
 - title: Promocode reward
   description: 'We reward our top couriers on a weekly basis with promocodes! The
     top 5 couriers who have delivered the most orders while their average time has
