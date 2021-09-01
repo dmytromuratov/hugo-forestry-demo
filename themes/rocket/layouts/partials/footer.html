@@ -1,0 +1,26 @@
+{{ "<!-- Footer Section Start -->" | safeHTML }}
+<footer id="footer">
+    <div class="container">
+        <div class="row row--vertical-middle">
+            <div class="col-6">
+                <p class="copyright">
+                    <span class="copyright-year">
+                        {{ now.Format "2006" }}
+                    </span>
+                    &copy; Rocket
+                </p>
+            </div>
+            <div class="col-6 text-right">
+                <div class="version-badge">Build version {{ getenv "HUGO_BUILD_NUMBER" }}</div>
+            </div>
+        </div>
+    </div>
+</footer>
+{{ "<!-- footer section end -->" | safeHTML }}
+
+{{ "<!-- jquery -->" | safeHTML }}
+<!-- <script defer src="{{ "plugins/jQurey/jquery.min.js" | relURL }}"></script> -->
+
+</body>
+
+</html>
