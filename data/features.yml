@@ -2,6 +2,8 @@
 enable: true
 heading: Offers
 item:
+- title: New awesome title
+  description: 'asdas das d '
 - title: Promocode reward
   description: We reward our top couriers on a weekly basis with promocodes! The top
     5 couriers who have delivered the most orders while their average time has been
